@@ -1,14 +1,16 @@
 ---
-title: Demystifying LLMs
+title: Introduction to Retrieval-Augmented Generation (RAG) Using Java and Spring AI
+---
+
+## Introduction to Retrieval-Augmented Generation (RAG) Using Java and Spring AI
+
 ---
 
 # Demystifying LLMs
 
-Welcome! Today, let's explore how Large Language Models (LLMs) work and how you can build powerful AI apps.
+let's explore how Large Language Models (LLMs) work
 
----
-
-# Next Word Prediction Game
+### Next Word Prediction Game
 
 Let's play a quick game! I'll start a sentence, and you try to guess the next word.
 
@@ -16,32 +18,55 @@ _Example:_
 
 > The cat sat on the \_\_\_
 
-(Wait for audience responses)
-
 ---
 
 # How Do LLMs Work?
 
+<img src="/assets/image.png" alt="Containers" >
+
 - LLMs predict the next word in a sequence, just like our game
 - Trained on massive datasets
 - Use neural networks (transformers)
-- Can generate, summarize, translate, and answer questions
+- Can generate, summarize, translate, and answer questions based on pre-trained data
 
 ---
 
 # Building Enterprise Apps with LLMs
 
-- LLMs can automate workflows, answer questions, and more
-- Challenges: context, memory, reliability
-- Need for tools to manage state and context
+LLMs are trained only up to certain cut-off dates and obviously not all our private data
+
+<v-clicks>
+
+- Create own model with private data
+- Use public model + but have data in private store
+  <img src="/assets/rag.png" alt="Containers" width="400">
+
+</v-clicks>
 
 ---
 
-# Why VectorStore and Tool Callbacks?
+# Vector Databases
 
-- VectorStore: manages conversation state and memory
-- Tool callbacks: let LLMs interact with external systems (APIs, databases)
-- Enables more powerful, context-aware apps
+A vector database is a specialized type of database that plays an essential role in AI applications.
+
+In vector databases, queries differ from traditional relational databases. Instead of exact matches, they perform similarity searches. When given a vector as a query, a vector database returns vectors that are “similar” to the query vector.
+
+  <img src="/assets/vs.png" alt="Containers" width="400">
+
+---
+
+# Lets build PDP helper
+
+> How many of you already have your PDP created? 😀
+
+<v-clicks>
+
+- Read about essential skills
+- Consultant skills for different roles
+- Lot of docs to refer
+- Extract the improvements from feedbacks
+
+</v-clicks>
 
 ---
 
@@ -53,19 +78,46 @@ _Example:_
 
 ---
 
-# Case Study: PDP-HELPER for Opencast (Spring AI)
+# PDP-HELPER App for Opencast
 
-- Built with Spring AI
-- Helps users with Product Detail Pages (PDP)
-- Integrates LLMs, tools, and enterprise data
+The PDP-HELPER app is designed to assist users in creating personalized development plans using organization-specific PDFs. It leverages the power of Spring AI and LLMs to provide a tailored experience.
+
+### Features:
+
+- Automated PDF processing
+- Customizable development plans
+- Integration with Opencast for seamless content management
+
+### Technical Requirements:
+
+- Spring AI framework
+- LLM integration
+- Opencast API connectivity
+
+### Benefits:
+
+- Enhanced user experience through personalized development plans
+- Streamlined content management with Opencast integration
+- Improved efficiency with automated PDF processing
 
 ---
 
 # Build Your Own Chatbots!
 
-- LLMs are accessible to everyone
-- Start small, experiment, and iterate
-- Encourage you to build your own AI-powered apps!
+With the knowledge and tools presented in this talk, you now have the foundation to build your own chatbots. Don't be afraid to experiment and innovate – the possibilities are endless!
+
+### Getting Started:
+
+1. Explore LLMs and their applications
+2. Choose a framework (e.g., Spring AI)
+3. Design and develop your chatbot
+4. Test and refine your creation
+
+### Resources:
+
+- [Spring AI Documentation](https://docs.spring.io/spring-ai)
+- [Opencast API Reference](https://opencast.org/api)
+- [LLM Tutorials and Guides](https://langchain.com/tutorials)
 
 ---
 
@@ -82,3 +134,4 @@ Questions? Let's connect and build the future of AI together.
 - [OpenAI](https://openai.com)
 - [LangChain](https://langchain.com)
 - [Opencast](https://opencast.org)
+- [Model Context Protocol (MCP)](https://github.com/microsoft/model-context-protocol)
