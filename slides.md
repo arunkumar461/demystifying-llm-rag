@@ -77,6 +77,8 @@ The Model Context Protocol, or MCP, is a simple standard, designed and open sour
   <img src="/assets/mcp.png" alt="Containers" width="400">
 
 ---
+layout: center
+---
 
 # Thank You!
 
