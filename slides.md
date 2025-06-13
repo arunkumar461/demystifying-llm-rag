@@ -16,7 +16,7 @@ Let's play a quick game! I'll start a sentence, and you try to guess the next wo
 
 _Example:_
 
-> The cat sat on the \_\_\_
+> Chris cook goes to the \_\_\_
 
 ---
 
@@ -70,54 +70,11 @@ In vector databases, queries differ from traditional relational databases. Inste
 
 ---
 
-# MCP, Agents, and Chatbots
+# MCP
 
-- Model Context Protocol (MCP): standard for LLM tool use
-- Agents: LLMs that can plan, reason, and use tools
-- Chatbots: user-facing apps powered by LLMs and agents
+The Model Context Protocol, or MCP, is a simple standard, designed and open sourced by Anthropic to help AI tools talk to the systems where data lives. Think of it like a USB-C port, but for AI applications.
 
----
-
-# PDP-HELPER App for Opencast
-
-The PDP-HELPER app is designed to assist users in creating personalized development plans using organization-specific PDFs. It leverages the power of Spring AI and LLMs to provide a tailored experience.
-
-### Features:
-
-- Automated PDF processing
-- Customizable development plans
-- Integration with Opencast for seamless content management
-
-### Technical Requirements:
-
-- Spring AI framework
-- LLM integration
-- Opencast API connectivity
-
-### Benefits:
-
-- Enhanced user experience through personalized development plans
-- Streamlined content management with Opencast integration
-- Improved efficiency with automated PDF processing
-
----
-
-# Build Your Own Chatbots!
-
-With the knowledge and tools presented in this talk, you now have the foundation to build your own chatbots. Don't be afraid to experiment and innovate – the possibilities are endless!
-
-### Getting Started:
-
-1. Explore LLMs and their applications
-2. Choose a framework (e.g., Spring AI)
-3. Design and develop your chatbot
-4. Test and refine your creation
-
-### Resources:
-
-- [Spring AI Documentation](https://docs.spring.io/spring-ai)
-- [Opencast API Reference](https://opencast.org/api)
-- [LLM Tutorials and Guides](https://langchain.com/tutorials)
+  <img src="/assets/mcp.png" alt="Containers" width="400">
 
 ---
 
@@ -133,5 +90,4 @@ Questions? Let's connect and build the future of AI together.
 - [Spring AI](https://docs.spring.io/spring-ai)
 - [OpenAI](https://openai.com)
 - [LangChain](https://langchain.com)
-- [Opencast](https://opencast.org)
 - [Model Context Protocol (MCP)](https://github.com/microsoft/model-context-protocol)
